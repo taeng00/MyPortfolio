@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome 사용 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- jquery 사용 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/nav.css">
+  <link rel="stylesheet" href="./CSS/home.css">
+  <link rel="stylesheet" href="./CSS/about.css">
+  <link rel="stylesheet" href="./CSS/skills.css">
+  <link rel="stylesheet" href="./CSS/mysite.css">
+  <link rel="stylesheet" href="./CSS/contact.css">
+  <link rel="stylesheet" href="./CSS/footer.css">
+  <link rel="stylesheet" href="./CSS/responsive.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 네이게이션 바 -->
+  <nav class="navbar">
+  <div class="max-width">
+    <div class="logo"><a href="#home">Port<span>folio</span></a></div>
+    <ul class="menubar">
+      <li><a href="#home" class="menu-btn" id="homeID">Home</a></li>
+      <li><a href="#about" class="menu-btn" id="aboutID">About</a></li>
+      <li><a href="#skills" class="menu-btn">My team</a></li>
+      <li><a href="#my-site" class="menu-btn">My Site</a></li>
+      <li><a href="#contact" class="menu-btn">SECON</a></li>
+      <li>
+        <a href="tailwind.html">Tailwind</a>
+      </li>
+    </ul>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+  </nav>
+  
+  <!-- 홈 섹션 -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-section">
+        <div class="text-1">Portfolio</div>
+        <div class="text-2">Kim taehyun</div>
+        <div class="text-3">webprogramming<span class="typing1"> mid-term exam</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about 섹션 -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About</h2>
+      <div class="about-content">
+        <div class="left column">
+          <img src="./images/me.jpg" alt="profile">
+        </div>
+        <div class="right column">
+          <div class="about-text">Kim taehyun</div>
+          <div class="about-skills">Student Code<span class="typing2"> 91913311</span></div>
+          <h1>안녕하십니까 중부대학교 정보보호학과 19학번 김태현 입니다.</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- team 섹션 -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Team</h2>
+              <table class="table table-bordered-white">
+                <thead>
+                  <tr>
+                    <th scope="col" style="background-color: #96AAFF;">이름</th>
+                    <th scope="col" style="background-color: #96AAFF;">학번</th>
+                    <th scope="col" style="background-color: #96AAFF;">성별</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>김태현</td>
+                    <td>19학번</td>
+                    <td>남자</td>
+                  </tr>
+                  <tr>
+                    <td>신명진</td>
+                    <td>19학번</td>
+                    <td>남자</td>
+                  </tr>
+                  <tr>
+                    <td>최경은</td>
+                    <td>21학번</td>
+                    <td>여자</td>
+                  </tr>
+                  <tr>
+                    <td>임혜준</td>
+                    <td>21학번</td>
+                    <td>여자</td>
+                  </tr>
+                  <tr>
+                    <td>윤지현</td>
+                    <td>23학번</td>
+                    <td>여자</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><button type="button" onclick="location.href='https://www.naver.com/' ">네이버</button></p>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+  </section>
+
+  <!-- my-site 섹션 -->
+  <section class="my-site" id="my-site">
+    <div class="max-width">
+      <h2 class="title">My Site</h2>
+      <div class="my-site-content">
+        <div class="left column">
+          <a href="" target="_blank">
+          <div class="site">
+            <div class="site-images">
+              <img src="./images/blog.png" alt="">
+            <div class="site-text">BLOG</div>
+              <p>My blog project</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="center column">
+          <a href="https://github.com/taeng00" target="_blank">
+          <div class="site">
+            <div class="site-images">
+              <img src="./images/github.png" alt="">
+            <div class="site-text">Github</div>
+              <p>My github</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="right column">
+          <a href="https://web-programming-wheat.vercel.app/" target="_blank">
+          <div class="site">
+            <div class="site-images">
+              <img src="./images/web.png" alt="">
+            <div class="site-text">HCJ demo</div>
+              <p>My webdemo site</p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- secon 섹션 -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">SECON</h2>
+      
+        <h1>2024 SECON 리뷰</h1>
+
+       
+        <img src="images/secon1.jpg" alt="photo" width="30%" />
+        <img src="images/secon2.jpg" alt="photo" width="30%" />
+        <img src="images/secon3.jpg" alt="photo" width="30%" />
+        <img src="images/secon4.jpg" alt="photo" width="30%" />
+        <img src="images/secon5.jpg" alt="photo" width="30%" />
+        <img src="images/secon6.jpg" alt="photo" width="30%" />
+        <p><h1>Detail</h1></p>
+    
+        <p>이번 2024 SECON에서는  </p>
+        <p>AI스마트파킹 솔루션과 집합건물(아파트, 상가)등에 공공cctv, 주민투표, 시설예약, 관리비확인 등 다양한 정보를 한눈에 볼수 있는 솔루션들을 선보인 기업,</p> 
+        <p>지문인식 기술과 얼굴 인증 기술을 기반으로 출입통제, 근태관리, 모바일 인증 등 다양한 영역에서 고객사가 혁신적으로 도약할 수 있는 제품과 솔루션을 제공하는 기업,</p>
+        <p>편리하고 신뢰성 높은 세계 최고 수준의 영상 보안장비를 개발 및 제조하여 대형 관제 스크린 통해 상황이 발생되면 신속 알림을 주는 관제 모니터링 화면을 선보인 기업 등</p>
+        <p>정보보안과 물리보안, 융합보안 등의 통합보안 전시회인 SECON에서 국내외 다양한 보안솔루션을 제공하는 기업들을 만나볼 수 있었습니다.</p>
+    
+       
+
+      </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- footer 섹션 -->
+  <footer>
+    <span>Created By <a href="#">Kim taehyun</a> | <i class="fas fa-copyright"></i>2024 webprogramming</span>
+  </footer>
+
+  <!-- js -->
+  <script src="/JS/script.js"></script>
+</body>
+</html>
